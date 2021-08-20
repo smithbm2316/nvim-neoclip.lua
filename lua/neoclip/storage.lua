@@ -15,4 +15,8 @@ M.insert = function(contents)
     table.insert(storage, 1, contents)
 end
 
+M.reset = function()
+    storage = {}
+end
+
 return M
